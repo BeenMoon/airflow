@@ -541,7 +541,7 @@ want to optimize your DAGs there are the following actions you can take:
   but this is the one that has biggest impact on scheduler's performance. Whenever you have a chance to make
   your DAG load faster - go for it, if your goal is to improve performance. Look at the
   :ref:`best_practices/top_level_code` to get some tips of how you can do it. Also see at
-  :ref:`best_practices/dag_loader_test` on how to asses your DAG loading time.
+  :ref:`best_practices/dag_loader_test` on how to assess your DAG loading time.
 
 * Make your DAG generate simpler structure. Every task dependency adds additional processing overhead for
   scheduling and execution. The DAG that has simple linear structure ``A -> B -> C`` will experience
